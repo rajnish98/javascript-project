@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+</head>
+<body>
+  <!-- Main container -->
+
+  <div class="contaner">
+    
+    <h1>Password Generator</h1>
+
+    <div class="display-container">
+      <input readOnly placeholder="password" class="display" data-passwordDisplay>
+      
+      <button>
+        <span data-copyMsg></span>
+        <img src="./images/copy.svg" alt="copy" width="23" height="23">
+      </button>
+    </div>
+
+    <!-- input-container -->
+
+    <div class="input-container">
+
+      <div class="length-container">
+        <p>Password Length</p>
+        <p data-lengthNumber>0</p>
+      </div>
+
+      <input type="range" min="1" max="20" class="slider" step="1" data-lengthSlider>
+
+      <!-- checkboxes -->
+      <div>
+        <input type="checkbox" id="uppercase">
+        <label for="uppercase">Includes Uppercase letter</label>
+      </div>
+      <div>
+        <input type="checkbox" id="lowercase">
+        <label for="lowercase">Includes Lowercase letter</label>
+      </div>
+      <div>
+        <input type="checkbox" id="numbers">
+        <label for="numbers">Includes Numbers</label>
+      </div>
+      <div>
+        <input type="checkbox" id="symbols">
+        <label for="symbols">Includes Symbols</label>
+      </div>
+
+      <!-- strength section -->
+
+      <div class="strength-container">
+        <p>Strength</p>
+        <div data-indicator></div>
+      </div>
+
+      <!-- Generate password -->
+
+      <button class="GenerateButton">Generate Password</button>
+    </div>
+
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
