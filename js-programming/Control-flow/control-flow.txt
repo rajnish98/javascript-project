@@ -251,3 +251,42 @@ A do-while loop is used where your loop should execute at least one time.
 
 For example, let’s consider a scenario where we want to take an integer input from the user until the user has entered a positive number. 
 In this case, we will use a do-while as we have to run loop at-least once because we want input from user at-least once. This loop will continue running until the user enters a positive number.
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+
+ump statements are used to interrupt the normal flow of program.
+
+Here we will discuss following Jump Statements
+
+break
+continue
+Break Statement
+The break statement is used inside loop or switch statement. When compiler finds the break statement inside a loop, compiler will abort the loop and continue to execute statements followed by loop.
+
+Example:
+
+var a = 1;  
+
+while(a <= 10)  
+{  
+    if(a==5)  
+        break;  
+    a++;  
+}  
+console.log("Value of a is " + a);  
+// Value of a is 5
+Continue Statement
+The continue statement is also used inside loop. When compiler finds the continue statement inside a loop, compiler will skip all the followling statements in the loop and resume the loop.
+
+Example:
+
+var a = 0;  
+while(a < 10)  
+{  
+    a++;  
+    if(a == 5)  
+        continue;  
+
+    console.log(a + " ");  
+}  
+// prints 1 2 3 4 6 7 8 9 10 
