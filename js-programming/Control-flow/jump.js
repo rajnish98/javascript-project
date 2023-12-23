@@ -3,7 +3,7 @@ function jump(num) {
 
 while(i < num){
     i++;
-    if(i % 2 != 0)
+    if(i % 2 == 0)
     continue;
     console.log(i)
 }
