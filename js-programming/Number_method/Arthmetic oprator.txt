@@ -1,0 +1,79 @@
+In JavaScript we may use Arithmetic operators to perform arithmetic on numbers (literals or variables).
+
+Operator	Description
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation
+/	Division
+%	Modulus (Remainder)
+++	Increment
+--	Decrement
+A typical arithmetic operation operates on two numbers.
+
+The two numbers can be literals:
+Example: var x = 1 + 7;
+The two numbers can be variables:
+Example: var x = n + m;
+The two numbers can be variables:
+Example: var x = (1 + 8) + n;
+Operators and Operands
+The numbers (in an arithmetic operation) are called operands.
+The operation (to be performed between the two operands) is defined by an operator.
+The addition operator (+) adds numbers:
+
+Example:
+ var x = 7;
+ var y = 2;
+ var z = x + y;
+ // So z will store 9.
+The subtraction operator (-) subtracts numbers:
+
+Example:
+ var x = 7;
+ var y = 2;
+ var z = x - y;
+ // So z will store 5.
+The multiplication operator (*) multiplies numbers:
+
+Example:
+ var x = 7;
+ var y = 2;
+ var z = x * y;
+ // So z will store 14. 
+The division operator (/) divides numbers:
+
+Example:
+ var x = 8;
+ var y = 2;
+ var z = x / y;
+ // So z will store 4.
+The modulus operator (%) returns the division remainder.
+
+Example:
+ var x = 7;
+ var y = 2;
+ var z = x % y;
+ // So z will store 1.
+The increment operator (++) increments numbers.
+
+Example:
+ var x = 5;
+ x++;
+ var z = x;
+ // So z will store 6.
+The decrement operator (–) decrements numbers.
+
+Example:
+ var x = 5;
+ x--;
+ var z = x;
+ // So z will store 4. 
+The exponentiation operator (**) raises the first operand to the power of the second operand.
+
+Example:
+ var x = 5;
+ var z = x ** 2;
+ // So z will store 25.   
+
+__________________________________________________________________________________________________________________________________________
