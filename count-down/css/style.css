@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Lato:wght@100&family=Roboto:wght@100&family=Sofia&family=Spline+Sans:wght@400;500;600;700&display=swap');
+
 * {
   padding: 0;
   margin : 0;
@@ -10,7 +12,6 @@ font-family: 'Spline Sans', sans-serif; */
   
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Lato:wght@100&family=Roboto:wght@100&family=Sofia&family=Spline+Sans:wght@400;500;600;700&display=swap');
 
 .main{
   width: 100%;
@@ -25,12 +26,12 @@ font-family: 'Spline Sans', sans-serif; */
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: white;
+  /* color: white; */
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 .title {
-  margin: 10px;
+  margin-top: 10px;
   color: white;
   font-size: 2.5rem;
   text-align: center;
@@ -38,7 +39,7 @@ font-family: 'Spline Sans', sans-serif; */
 
 .col {
   margin-top: 20px;
-  width: 1000px;
+  width: 90%;
   display: flex;
   justify-content: center;
   color: white;
@@ -49,14 +50,13 @@ font-family: 'Spline Sans', sans-serif; */
   text-align: center;
 }
 
-label {
-  display:flex;
-  justify-content:center;
+label{
+  display: flex;
+  flex-direction: column;
   margin: 5px;
 }
 
 input {
-  /* display: block; */
   width: 45%;
   height: 50px;
   background-color: rgba(255, 255, 255, 0.9);
