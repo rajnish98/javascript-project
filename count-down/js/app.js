@@ -31,3 +31,8 @@ function clock(){
 }
 
 clock();
+
+// var _second = 1000;
+// var _minute = _second * 60;
+// var _hour = _minute * 60;
+// var _day = _hour * 24;
