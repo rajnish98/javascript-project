@@ -20,13 +20,15 @@ function clock(){
       inputs[2].value = Math.floor((timeToDate % (1000 * 60 * 60)) / (1000 * 60));
       inputs[3].value = Math.floor((timeToDate % (1000 * 60)) / 1000);
       // Display the result in the element with id="counter"
-      
+      if(timeToDate < 0) return;
       // If the countdown is finished, display a message 
       if (timeToDate < 0) {
           clearInterval(x);
           document.getElementById("end-date").innerHTML = "Countdown finished";
       }
   }, 1000);
+     
+     
 
 }
 
