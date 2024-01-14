@@ -1,5 +1,5 @@
 // Targeted date
-var countDownDate = new Date("jan 1, 2024 00:00:00 AM").getTime();
+var countDownDate = new Date("jan 10, 2024 00:00:00 AM").getTime();
 // var countDownDate = new Date("dec 31, 2023 00:00:00 AM").getTime();
 document.getElementById("end-date");
 const inputs = document.querySelectorAll("input");
@@ -27,9 +27,8 @@ function clock(){
           document.getElementById("end-date").innerHTML = "Countdown finished";
       }
   }, 1000);
-     
-     
 
+  
 }
 
 clock();
