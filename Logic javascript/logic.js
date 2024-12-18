@@ -6,5 +6,9 @@ abc.xyz = 400;
 abc.xyz = 200;
 abc()
 
-// 2
+// event propgation 
+
+const number = [1, 2, 3, 4]
+number[100] = 500
+console.log(number);
 
